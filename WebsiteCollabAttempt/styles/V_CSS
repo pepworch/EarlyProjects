@@ -1,0 +1,152 @@
+	body {
+    background-color: #F5F5DC;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+#topBCS {
+    border-radius: 70%;
+    border: 2px;
+    background-color: #2b2b2b;
+}
+
+.IMAGETOP{
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+}
+
+#firstFIG{
+	display: flex;
+	flex-direction: column;
+}
+
+header{
+	display: flex;
+	justify-content: center;
+	border-radius: 15px;
+	background-color: #2b2b2b;
+    color: gold;
+    font-weight: bold;
+    font-size: 1.2em;
+    padding: 0.4rem ;
+	
+}
+
+
+#flexContain{
+	display: flex;
+	flex-direction:row;
+	justify-content: center;
+}
+
+.map{
+	background-color: #2b2b2b;
+    padding: 1.5rem;
+    border-radius: 20px;
+    box-shadow: 0 0 5px #999;
+	width:75%;
+	height: 100%;
+	display: flex; 
+	justify-content: start;
+	flex-direction:column;
+	align-items: center;
+	color: #f5f2f2;
+}
+
+#imgMap{
+	height:91%;
+}
+
+figcaption{
+	padding-top: 10px;
+}
+
+#v_nav{
+	display:flex;
+	justify-content: flex-start;
+	margin-top: 15px;
+}
+
+nav ul {
+    display: flex; 
+	flex-direction: column; 
+	justify-content: space-between;
+    gap: 2rem;
+    list-style: none;
+    padding: 1rem;
+    margin: 0;
+    background-color: maroon;
+	width:100%;
+	border-radius: 20px;
+}
+
+nav li {
+    background-color: gold;
+    border: 2px solid #4B0082;
+    padding: 0.5rem 1rem;
+    border-radius: 8px;
+}
+
+li a{
+	display: flex;
+	justify-content: center;
+}
+
+#saulvideo{
+    background-color: white;
+    padding: 1.5rem;
+    border-radius: 20px;
+    box-shadow: 0 0 5px #999;
+	display: flex;
+	justify-content: center;
+	width:65%;
+	margin-left: 80px;
+}
+
+#rightContain{
+	display: flex;
+	flex-direction: column;
+	width:60%;
+	justify-content: flex-end;
+}
+
+footer {
+    width: 90%;
+    margin: 3rem auto;
+    text-align: center;
+    padding: 1rem;
+    border-top: 2px solid black;
+}
+
+@media (max-width: 900px) {
+	
+	#topBCS,#firstFig{
+		width: 80%;
+		length: 20%;
+	}
+	
+	.map{
+		height: 40%;
+	}
+	
+	header{
+		justify-content: center;
+		align-items: center;
+	}
+	
+	body{
+		width: 110%;
+		margin: auto;
+		display:flex;
+		flex-direction: column;
+	}
+	
+	#saulvideo{
+		margin-left: 57px;
+	}
+	
+	#rightContain{
+		justify-content: center;
+	}
+}

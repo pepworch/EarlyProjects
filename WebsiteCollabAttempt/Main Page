@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+	
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title> Criminal Lawyer | Saul Goodman </title>
+		<link rel="stylesheet" href="styles/saul.css">
+		<script src="scripts/events.js" defer></script>
+	
+	<body>
+		<figure>
+			<img src="assets/Better_Call_Saul_logo.png" alt="Better Call Saul Logo" width="500" height="200">
+				<figcaption> Official Better Call Saul logo taken from <a href="https://en.wikipedia.org/wiki/Better_Call_Saul#/media/File:Better_Call_Saul_logo.svg"> Wikipedia.</a> </figcaption>
+		</figure>
+		
+		
+		<header> 
+			<p> CALL NOW!!!			 Office Phone Number: (505) 503-4455 | Backup Phone Number: (505) 842-5662 </p>
+		</header>
+

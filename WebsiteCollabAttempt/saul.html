@@ -1,0 +1,86 @@
+<!--Lamson Phan  -->
+<!DOCTYPE html>
+<html lang="en">
+	
+	<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Saul Goodman parody website for educational purposes. Need legal help? Better Call Saul!">
+	<link rel="stylesheet" href="styles/saul.css" />
+	</head>
+
+	
+	<body>
+		<figure>
+			<div class="homepageIMAGETOP">	<img id="topBCS" src="assets/Better_Call_Saul_logo.png" alt="Better Call Saul Logo" width="500" height="200"> </div> <!--Used div to propely display logo -->
+					<figcaption id="firstFIG"> Official Better Call Saul logo taken from  <a href="https://en.wikipedia.org/wiki/Better_Call_Saul#/media/File:Better_Call_Saul_logo.svg"> Wikipedia.</a> </figcaption>
+		</figure>
+		
+		
+		<header> 
+			<div class="scrolling-text"> <!-- Wrapping the p tag with div tp simplify CSS -->
+			<p> CALL NOW!!!			 Office Phone Number: (505) 503-4455 | Backup Phone Number: (505) 842-5662 </p>
+			</div>
+		</header>
+
+	<nav> 
+		<ul>
+			<li><a href="#top">Office Locations</a></li>
+			<li><a href="pages/InteractiveLam.html">Client Testimonials</a></li>
+			<li><a href="#saulvideo">View a video on the side!</a></li>
+			<li><a href="#biography">Go straight to the biography!</a></li>
+			<li><a href="pages/ContentLam.html">Extras</a></li>
+			<li><a href="pages/InteractiveLam.html">Reviews</a></li>
+			<li><a href="#footer">Terms & Conditions</a></li>
+		</ul>
+	</nav>
+	<div class="flexContainer">
+
+    
+    <div id="leftColumn"> <!-- div used here to simplify CSS  -->
+
+        <section id="biography">
+            <h1>In criminal trouble? Better Call Saul!</h1>
+            <h2>In Trouble with the Law? Facing a Life Sentence? Relax — You’ve Got Saul!</h2>
+           <p>When the stakes are high and the system’s stacked against you, you need a lawyer who knows how to play the game. Saul Goodman — proud graduate of the University of American Samoa — passed the bar in just three tries and hasn’t looked back since.</p>
+			<p>Whether it’s a felony, misdemeanor, or a little misunderstanding with the DEA, Saul’s got your back. Street-smart, courtroom-savvy, and always one step ahead — Better Call Saul!</p>
+        </section>
+
+        <main>
+            <figure>
+               <img src="assets/mainSAUL.jpg"
+				 width="800" height="500"
+				 id="mainSaul"
+				 alt="Saul Goodman promotional photo">
+                <figcaption>Photograph from
+                    <a href="https://news.newonnetflix.info/news/better-call-saul-returns-to-netflix-tomorrow-for-season-4/">
+                        this article
+                    </a>
+                </figcaption>
+            </figure>
+        </main>
+
+        <article id="comments">
+            <button class="commentButton" onclick="showComments()">View the thought of our most recent satisfied client!</button>
+            <p id="showComment"></p>
+        </article>
+
+    </div>
+
+    
+    <aside id="saulvideo">
+        <a href="https://youtu.be/iId5WDsYxZ4?si=e6WHzeowpObTRr-i" target="_blank">
+            <img src="assets/saul_video_thumbnail.png"
+			 width="600" height="350"
+			 alt="Watch Saul's Commercial Thumbnail">
+        </a>
+    </aside>
+
+	</div>
+	<footer id="footer">
+		<p> <strong> This website has no legal affiliations with AMC's ip. The content within this page is for educational/parody purposes only. All rights go to AMC  </strong> </p>
+	</footer>
+	
+	
+	</body>
+</html>
